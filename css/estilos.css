@@ -1,0 +1,276 @@
+*{
+	padding:0;
+	margin: 0;
+}
+
+@font-face {
+	font-family: "verdana";
+	src: ;
+	url("../font/Viridian College1.woff") format("woff");
+}
+
+@font-face{
+	font-family: "letra2";
+	src:
+	url("../font/DrivingAround.woff") format("woff");
+}
+.tex-titulo{
+	font-family: "verdana";
+	font-size: 14px;
+	text-align: center;
+}
+body{
+	position: absolute;
+	top: 3px; 
+	bottom: 20px;
+	right:7px;
+	left: 7px;
+	background:#FFFFFF;
+	color:#242938;
+	font-size: 20px;
+	width: 100%;
+}
+
+#imglogo{
+	position: absolute;
+	top: 13px;
+	right: 0px;
+	left: 675px;
+}
+
+#img0{
+float: left;
+margin: 0 100px 10px 0; 
+}
+
+h1{
+
+	font-family: "verdana" ;
+	/*color:#FF9333;
+	margin: 1px auto;
+	text-align: center;
+	text-shadow: 20px;
+	font-size: 100px;*/
+	position: absolute;
+	top: 135px;
+	bottom: 50px;
+	right: 0px;
+	left: 549px;
+	color: #EEEEF6;
+	text-align: center;
+	height: 180px;
+	margin: 0px;
+	width: 500px;
+	display: inline-block;
+	width: 50%;
+
+}
+
+h2{
+	font-family: "verdana";
+	position: absolute;
+	top: 135px;
+	bottom: 50px;
+	right: 0px;
+	left: 549px;
+	color: #EEEEF6;
+	text-align: center;
+	height: 150px;
+	margin: 0px;
+	width: 500px;
+	display: inline-block;
+	width: 50%;
+}
+
+header{
+	background: #120F58;
+	border-radius: 10px;
+	margin: 2px auto;
+	/*max-width: 3000px;*/
+	padding: 1em;
+	color:#8D33FF;
+	width: 100%;
+	right:10px;
+	left: 1px;
+	position: relative; 
+	display:block;
+	padding: 50px;
+}
+
+nav{
+	background: #022430;
+	border-radius:10px;
+	color:#FFFF00;	
+	width: 100%;
+	position: relative;
+	display:block;
+	margin: 2px auto;
+	left: 1px;
+	padding: 10px;
+	}
+
+ /*.Inicio  {
+	position: relative;
+	left: 530px;
+	font-family: "verdana";
+	background:#120F58;
+	border-radius:10px;
+	color: #FFFFFF;
+	display:inline-block;
+    font-size: 14px;
+    margin: 20px;
+    padding: 5px 0px;
+    text-align: center;
+	width: 160px;
+    text-decoration:none;
+    box-shadow: 5px 0px 10px #939393;
+    -webkit-transition:padding-center 0.10s;
+}
+
+.Inicio:hover{
+  background:#BB9C03;
+  width: 160px;
+}
+
+  .Etapas{
+	position: relative;
+	left: 530px;
+	font-family: "verdana";
+	background:#120F58;
+	border-radius:10px;
+	color: #FFFFFF;
+	display:inline-block;
+    font-size: 14px;
+    margin: 20px;
+    padding: 5px 0px;
+    text-align: center;
+    width: 160px;
+    text-decoration:none;
+    box-shadow: 5px 0px 10px #939393;
+    -webkit-transition:padding-center 0.10s;
+}
+
+.Etapas:hover{
+  background:#BB9C03;
+  width: 160px;
+}
+
+ /*.Requerimientos{
+	position: relative;
+	left: 530px;
+	font-family: "verdana";
+	background:#120F58;
+	border-radius:10px;
+	color: #FFFFFF;
+	display:inline-block;
+    font-size: 14px;
+    margin: 20px;
+    padding: 5px 0px;
+    text-align: center;
+    width: 160px;
+    text-decoration:none;
+    box-shadow: 5px 0px 10px #939393;
+    -webkit-transition:padding-center 0.10s;
+}
+.Requerimientos:hover{
+  background:#BB9C03;
+  width: 160px;
+}*/
+
+.Boton{
+	position: relative;
+	left: 520px;
+	font-family: "verdana";
+	background:#120F58;
+	border-radius:10px;
+	color: #FFFFFF;
+	display:inline-block;
+    font-size: 14px;
+    margin: 20px;
+    padding: 5px 0px;
+    text-align: center;
+    width: 160px;
+    text-decoration:none;
+    box-shadow: 5px 0px 10px #939393;
+    -webkit-transition:padding-center 0.10s;
+}
+.Boton:hover{
+background:#BB9C03;
+  width: 160px;
+}
+.texto-etapas
+{
+font-family: "verdana";
+font-size: 14px;
+text-align: justify;
+}
+.Modelos:hover{
+  background:#BB9C03;
+  width: 160px;
+}
+
+section article{
+	background: #BDBDBD;
+	color:#190707;
+	position: absolute;
+	text-align: justify;
+	top: 500px; 
+	width: 25%;
+	right:0px;
+	left: 500px;
+}
+
+#img2{
+	position: absolute;
+	top: 500px; 
+	bottom: 20px;	
+}
+
+ aside{
+ 	background: #BDBDBD;
+	color:#190707;
+	position: absolute;
+	text-align: justify;
+	top: 500px; 
+	width: 35.5%;
+	right:0px;
+	left: 860px;
+}
+
+aside#img3{
+	position: absolute;
+	top: 1px; 
+	bottom: 50px;
+	right:10px;
+	left: 1px;    	 
+}
+
+ footer{
+	position: relative;
+	background: #070B19;
+	color: #FFFFFF;
+	top: 200px; 
+	bottom: 100px;
+	right:10px;
+	left: 1px;  
+	width: 100%;
+	display:block;
+
+	font-size: 12px;
+    padding: 50px;  
+}
+
+footer h3{
+
+}
+
+ div.footerpie{
+ 	position: relative;
+	background: #010311 ;
+	color: #FFFFFF;
+	top: 550px; 
+	font-size: 12px;
+    padding: 50px;  
+
+
+	}
